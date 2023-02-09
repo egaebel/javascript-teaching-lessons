@@ -59,12 +59,14 @@ function myTextManipulation1(baseText, wordToReplace, replacementWord) {
 
 let testBaseText = "The Internet has exploded with blogs, writing, social media, online shopping, cryptocurrency etc. But, the public is often left asking is the Internet worth it? Does the good provided by the positive aspects of the Internet overcome the scams, lies, disinformation, and other harmful content that the Internet doles out to anyone like a gumball machine?"
 
-// let testNewBaseText = myTextManipulation1(testBaseText, "internet", ["mall"]);
-// let testNewBaseText = myTextManipulation2(
-//     testBaseText,
-//     "internet",
-//     ["footlocker", "shoe market", "nike company", "adidas compan", "rebok company"]);
-let testNewBaseText = myTextManipulation3(
+let testNewBaseText = myTextManipulation1(testBaseText, "internet", "mall");
+console.log("\nWent from: '" + testBaseText + "'\n\nTo: '" + testNewBaseText + "'\n");
+testNewBaseText = myTextManipulation2(
+    testBaseText,
+    "internet",
+    ["footlocker", "shoe market", "nike company", "adidas compan", "rebok company"]);
+console.log("\nWent from: '" + testBaseText + "'\n\nTo: '" + testNewBaseText + "'\n");
+testNewBaseText = myTextManipulation3(
     testBaseText,
     {
         "internet": ["footlocker", "shoe market", "nike company", "adidas compan", "rebok company"],
