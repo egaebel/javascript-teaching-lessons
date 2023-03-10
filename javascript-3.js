@@ -23,7 +23,9 @@ function stringLength(s) {
 // Input: "this is a string"
 // Output: ["t", "h" "i", "s"," ", "i", "s"," ", "a", " ", "s", "t", "r", "i", "n", "g"]
 //
-function stringToArray(s) { }
+function stringToArray(s) {
+    
+}
 
 
 // 3. Join character array.
@@ -103,13 +105,14 @@ function getEven(numArray) { }
 //
 // Example 1:
 // Input: n = 15
-// Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
+// Output: ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
 //
 // Reference:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder
 //
 function fizzBuzz(n) { }
+
 
 // Testing solutions-------------------------------------------------------------
 console.log("\n1. String length")
